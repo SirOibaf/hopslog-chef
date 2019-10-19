@@ -19,6 +19,10 @@ depends 'hops'
 recipe "hopslog::install", "Installs Logstash and Kibana Server"
 recipe "hopslog::default", "configures Logstash and Kibana Server"
 recipe "hopslog::purge", "Deletes the Logstash and Kibana Servers"
+recipe "hopslog::_filebeat-spark", "Deletes the Logstash and Kibana Servers"
+recipe "hopslog::_filebeat-serving", "Deletes the Logstash and Kibana Servers"
+recipe "hopslog::_filebeat-kagent", "Deletes the Logstash and Kibana Servers"
+recipe "hopslog::_filebeat-beam", "Deletes the Logstash and Kibana Servers"
 
 attribute "hopslog/user",
           :description => "User to run Kibana server as",
